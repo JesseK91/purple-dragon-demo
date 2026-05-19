@@ -43,7 +43,7 @@ export default function FullMenuRouting() {
           <h2 className="boutique-title text-3xl sm:text-4xl md:text-5xl uppercase font-black text-white leading-tight">
             Menu Integrations
           </h2>
-          <p className="text-purple-200/60 text-xs font-light leading-relaxed mt-2">
+          <p className="text-purple-100/90 text-xs font-light leading-relaxed mt-2">
             Use {siteConfig.storeName}&apos;s live Weedmaps menu for availability and pickup ordering. This site acts as the branded front door for deals, fresh drops, alerts, reviews, and local trust.
           </p>
         </div>

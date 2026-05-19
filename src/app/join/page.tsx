@@ -39,7 +39,7 @@ export default function JoinTextClubPage() {
               Get Deals & Fresh Drops
             </h1>
             
-            <p className="text-purple-200/60 text-xs sm:text-sm font-light leading-relaxed max-w-md mx-auto lg:mx-0 font-mono">
+            <p className="text-purple-100/90 text-xs sm:text-sm font-light leading-relaxed max-w-md mx-auto lg:mx-0 font-mono">
               This is the quick signup page for people scanning a counter card, receipt, or QR code. Use email or optionally opt into text alerts, then pick the categories you care about.
             </p>
 
@@ -72,7 +72,7 @@ export default function JoinTextClubPage() {
       {/* Compliance Notice */}
       <footer className="py-12 border-t border-purple-950/20 bg-[#05010a]">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
-          <p className="text-[9px] text-purple-300/30 leading-relaxed font-mono">
+          <p className="text-[9px] text-purple-200/70 leading-relaxed font-mono">
             {siteConfig.storeName} serves licensed Oklahoma medical marijuana patients. Email alerts do not require SMS consent. Text alerts are optional and require consent. OMMA patient license and photo ID are required for purchases.
           </p>
         </div>

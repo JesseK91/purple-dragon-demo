@@ -88,7 +88,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
-            className="max-w-xl text-purple-100/70 text-sm leading-relaxed tracking-wide font-light mt-4 drop-shadow-sm"
+            className="max-w-xl text-purple-100/85 text-sm leading-relaxed tracking-wide font-light mt-4 drop-shadow-sm"
           >
             Browse {siteConfig.storeName}&apos;s featured flower, cartridges, head shop accessories, and patient specials. Shop the full menu, get directions, or join drop alerts.
           </motion.p>

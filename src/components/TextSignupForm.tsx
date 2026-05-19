@@ -143,7 +143,7 @@ export default function TextSignupForm({
               <h3 className="boutique-title text-3xl font-black text-white uppercase tracking-tight">
                 Get Deal Alerts
               </h3>
-              <p className="text-purple-200/60 text-xs font-light leading-relaxed">
+              <p className="text-purple-100/90 text-xs font-light leading-relaxed">
                 Pick what you actually care about. Email is fine. Texts are optional and only apply if you choose to receive them.
               </p>
             </div>
@@ -220,11 +220,11 @@ export default function TextSignupForm({
                   onChange={(e) => setSmsConsent(e.target.checked)}
                   className="w-4 h-4 rounded-none border border-purple-800/30 bg-purple-950/10 text-black accent-yellow-400 mt-0.5 shrink-0 cursor-pointer"
                 />
-                <span className="text-[9px] text-purple-300/50 leading-relaxed font-mono group-hover:text-purple-300/80 transition-colors">
+                <span className="text-[9px] text-purple-200/80 leading-relaxed font-mono group-hover:text-purple-100 transition-colors">
                   Optional text alerts: I agree to receive marketing text messages from {siteConfig.storeName} at the phone number provided. Message frequency may vary. Reply STOP to opt out. This is not required for email alerts.
                 </span>
               </label>
-              <p className="text-[9px] text-purple-300/35 leading-relaxed font-mono">
+              <p className="text-[9px] text-purple-200/70 leading-relaxed font-mono">
                 Email alerts do not require SMS consent. OMMA patient license and photo ID are required for purchases.
               </p>
             </div>
@@ -260,12 +260,12 @@ export default function TextSignupForm({
               <h3 className="mono-label text-white font-black tracking-widest text-[13px] uppercase font-mono">
                 You're on the list
               </h3>
-              <p className="text-purple-200/80 text-xs font-mono leading-relaxed max-w-sm mx-auto uppercase">
+              <p className="text-purple-100/95 text-xs font-mono leading-relaxed max-w-sm mx-auto uppercase">
                 Thanks, <span className="text-white font-bold">{name}</span>. We saved your interest in <span className="text-white font-bold">{interest}</span> alerts.
               </p>
               <div className="border border-purple-900/30 bg-[#0d071a]/40 p-4 flex items-center gap-3 max-w-xs mx-auto mt-2">
                 <ShieldCheck size={14} className="text-yellow-400 shrink-0" />
-                <span className="text-[9px] text-purple-300/40 font-mono leading-relaxed text-left uppercase">
+                <span className="text-[9px] text-purple-200/80 font-mono leading-relaxed text-left uppercase">
                   Alert Preferences Secured. You will receive updates about {interest} drops at the contact details provided.
                 </span>
               </div>

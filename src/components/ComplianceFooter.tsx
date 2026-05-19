@@ -40,7 +40,7 @@ export default function ComplianceFooter() {
             <span className="mono-label text-purple-400 !text-[8px] font-mono tracking-widest uppercase">
               Lawton Dispensary, Coffee Bar & Head Shop
             </span>
-            <p className="text-[10px] text-purple-300/50 leading-relaxed font-mono max-w-sm mt-2 uppercase">
+            <p className="text-[10px] text-purple-200/80 leading-relaxed font-mono max-w-sm mt-2 uppercase">
               Serving licensed OMMA patients in Lawton, Fort Sill, and Southwest Oklahoma with curbside and in-store options.
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function ComplianceFooter() {
                 <Link
                   key={index}
                   href={link.href}
-                  className="mono-label text-purple-300/50 hover:text-yellow-400 transition-colors text-[9px] font-mono tracking-wider uppercase block"
+                  className="mono-label text-purple-200/80 hover:text-yellow-400 transition-colors text-[9px] font-mono tracking-wider uppercase block"
                 >
                   {link.label} &rarr;
                 </Link>
@@ -73,7 +73,7 @@ export default function ComplianceFooter() {
             
             <div className="flex flex-col gap-3 mt-2">
               {complianceWarnings.map((warning, index) => (
-                <div key={index} className="flex items-start gap-2 text-[9px] text-purple-300/35 font-mono leading-relaxed uppercase">
+                <div key={index} className="flex items-start gap-2 text-[9px] text-purple-200/70 font-mono leading-relaxed uppercase">
                   <div className="w-1 h-1 bg-purple-800/30 rounded-full shrink-0 mt-1.5" />
                   <span>{warning}</span>
                 </div>
@@ -89,17 +89,17 @@ export default function ComplianceFooter() {
             <span className="mono-label text-purple-400 text-[8px] uppercase tracking-widest font-bold font-mono">
               License ID: {siteConfig.ommaLicense}
             </span>
-            <span className="hidden md:inline text-purple-300/20">|</span>
-            <span className="mono-label text-purple-300/20 text-[8px] uppercase tracking-wider font-mono">
+            <span className="hidden md:inline text-purple-200/55">|</span>
+            <span className="mono-label text-purple-200/55 text-[8px] uppercase tracking-wider font-mono">
               Oklahoma Medical Marijuana Authority Compliant
             </span>
           </div>
 
           <div className="flex flex-col items-end gap-1 text-center md:text-right">
-            <span className="mono-label !text-[8px] text-purple-300/20 tracking-[0.2em] font-mono uppercase">
+            <span className="mono-label !text-[8px] text-purple-200/55 tracking-[0.2em] font-mono uppercase">
               Medical Cannabis, Glass & Accessories
             </span>
-            <span className="mono-label !text-[8px] text-purple-300/10 tracking-[0.1em] font-mono">
+            <span className="mono-label !text-[8px] text-purple-200/40 tracking-[0.1em] font-mono">
               © {new Date().getFullYear()} {siteConfig.storeName}. All rights reserved.
             </span>
           </div>

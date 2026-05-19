@@ -35,7 +35,7 @@ export default function DriveThruPromo() {
             <span className="text-yellow-400">FAST CHECKOUT</span>
           </h2>
 
-          <p className="text-purple-200/60 text-sm font-light leading-relaxed max-w-xl">
+          <p className="text-purple-100/90 text-sm font-light leading-relaxed max-w-xl">
             We do things differently at {siteConfig.storeName}. Skip the wait with curbside pickup, or step inside to browse the front head shop, ATM, and the live menu before you place your order.
           </p>
 
@@ -46,7 +46,7 @@ export default function DriveThruPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Curbside Pickup</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Quick pickup for pre-orders and live menu items</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Quick pickup for pre-orders and live menu items</span>
               </div>
             </div>
 
@@ -56,7 +56,7 @@ export default function DriveThruPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Head Shop Access</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Papers, accessories, rigs, and store merch</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Papers, accessories, rigs, and store merch</span>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ export default function DriveThruPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">ATM on Premises</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Secure cash access inside the store for quick checkout</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Secure cash access inside the store for quick checkout</span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function DriveThruPromo() {
             <h3 className="boutique-title text-2xl font-black text-white uppercase tracking-tight leading-tight">
               Order Online, Pick Up in Seconds
             </h3>
-            <p className="text-[11px] text-purple-300/60 leading-normal font-mono uppercase">
+            <p className="text-[11px] text-purple-200/80 leading-normal font-mono uppercase">
               Submit your curbside pre-order via the live menu below. We will package your selection, then verify your OMMA patient card and photo ID at pickup.
             </p>
           </div>

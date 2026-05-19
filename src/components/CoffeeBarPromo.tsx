@@ -32,7 +32,7 @@ export default function CoffeeBarPromo() {
             <span className="text-yellow-400">Coffee Bar</span> & Lounge
           </h2>
 
-          <p className="text-purple-200/60 text-sm font-light leading-relaxed max-w-xl">
+          <p className="text-purple-100/90 text-sm font-light leading-relaxed max-w-xl">
             At {siteConfig.storeName}, we believe the wait should be as enjoyable as the menu. The lobby features a complimentary coffee bar, fresh refreshments, and a comfortable seating lounge for local Lawton patients.
           </p>
 
@@ -43,7 +43,7 @@ export default function CoffeeBarPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Espresso & Coffee</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Free coffee bar for patients</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Free coffee bar for patients</span>
               </div>
             </div>
 
@@ -53,7 +53,7 @@ export default function CoffeeBarPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Cold Refreshments</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Water, sodas, and tea selections</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Water, sodas, and tea selections</span>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function CoffeeBarPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Comfortable Lounge</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Spacious waiting area with ATM access</span>
+                <span className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">Spacious waiting area with ATM access</span>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function CoffeeBarPromo() {
             <h3 className="boutique-title text-2xl font-black text-white uppercase tracking-tight leading-tight">
               A Higher Standard of Service
             </h3>
-            <p className="text-[11px] text-purple-300/60 leading-normal font-mono uppercase">
+            <p className="text-[11px] text-purple-200/80 leading-normal font-mono uppercase">
               No rushed transactions. Relax, grab a fresh cup of coffee, check out the attached head shop selection, and chat with our experienced budtenders. We do things local.
             </p>
           </div>

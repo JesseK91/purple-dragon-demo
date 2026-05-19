@@ -143,7 +143,7 @@ export default function DealsSection() {
               Patient Specials
             </h2>
           </div>
-          <p className="max-w-md text-purple-300/60 text-xs font-light leading-relaxed">
+          <p className="max-w-md text-purple-200/80 text-xs font-light leading-relaxed">
             Featured specials for licensed OMMA customers. Claim a deal, check Happy Hour, join alerts, or open the full menu before heading to Gore Blvd.
           </p>
         </div>
@@ -165,11 +165,11 @@ export default function DealsSection() {
                 <h3 className="boutique-title text-2xl font-black text-white group-hover:text-white/95 transition-colors">
                   {deal.title}
                 </h3>
-                <p className="text-purple-200/70 text-xs leading-relaxed font-light">{deal.description}</p>
+                <p className="text-purple-100/90 text-xs leading-relaxed font-light">{deal.description}</p>
               </div>
 
               <div className="flex flex-col gap-4 mt-auto">
-                <span className="text-[9px] text-purple-300/40 font-mono tracking-tight leading-normal border-t border-purple-900/20 pt-4 uppercase">
+                <span className="text-[9px] text-purple-300/60 font-mono tracking-tight leading-normal border-t border-purple-900/20 pt-4 uppercase">
                   {deal.finePrint}
                 </span>
 
@@ -230,7 +230,7 @@ export default function DealsSection() {
               <div className="flex flex-col gap-2">
                 <span className="mono-label text-purple-400 tracking-[0.2em] text-[9px] uppercase font-mono">Deal Request</span>
                 <h3 className="boutique-title text-3xl font-black text-white">{selectedDeal.title}</h3>
-                <p className="text-purple-200/60 text-xs font-light leading-relaxed">
+                <p className="text-purple-100/90 text-xs font-light leading-relaxed">
                   Share your contact preference and we will route your request to the store team. Email is valid. Text alerts are optional.
                 </p>
               </div>
@@ -246,7 +246,7 @@ export default function DealsSection() {
                   </div>
                   <div className="flex flex-col items-center text-center px-6">
                     <span className="mono-label text-white font-bold text-xs uppercase tracking-widest font-mono">Deal Request Sent</span>
-                    <span className="text-[10px] text-purple-300/60 font-mono mt-2 leading-relaxed uppercase">
+                    <span className="text-[10px] text-purple-200/80 font-mono mt-2 leading-relaxed uppercase">
                       Your request was saved. The store can follow up by your chosen contact method.
                     </span>
                   </div>
@@ -317,7 +317,7 @@ export default function DealsSection() {
                       onChange={(e) => setSmsConsent(e.target.checked)}
                       className="mt-1 bg-transparent border-purple-900/30 focus:ring-0 rounded-sm cursor-pointer"
                     />
-                    <label htmlFor="deal-consent" className="text-[9px] text-purple-300/50 leading-relaxed font-mono uppercase">
+                    <label htmlFor="deal-consent" className="text-[9px] text-purple-200/75 leading-relaxed font-mono uppercase">
                       Optional text alerts: I agree to receive marketing text messages from {siteConfig.storeName} at the phone number provided. Reply STOP to opt out. Email alerts do not require SMS consent.
                     </label>
                   </div>

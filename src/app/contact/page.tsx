@@ -124,7 +124,7 @@ export default function ContactPage() {
               </h1>
             </div>
 
-            <p className="text-purple-200/60 text-sm font-light leading-relaxed max-w-xl">
+            <p className="text-purple-100/90 text-sm font-light leading-relaxed max-w-xl">
               Oklahoma menus move fast. Leave a phone number if you want text updates, or use email only. No text signup is required.
             </p>
 
@@ -159,7 +159,7 @@ export default function ContactPage() {
               <div className="w-2.5 h-2.5 rounded-full bg-yellow-400 animate-pulse mt-1" />
               <div className="flex flex-col gap-1">
                 <span className="mono-label text-white font-black text-[9px] uppercase tracking-widest">Medical Cannabis Notice</span>
-                <p className="text-[10px] text-purple-300/40 leading-relaxed font-mono">
+                <p className="text-[10px] text-purple-200/80 leading-relaxed font-mono">
                   This demo signup is for store updates and lead capture. Oklahoma medical marijuana purchases require a valid OMMA patient license and photo ID at pickup.
                 </p>
               </div>
@@ -308,10 +308,10 @@ export default function ContactPage() {
                     <h3 className="mono-label text-yellow-400 font-black tracking-widest text-[14px] uppercase">
                       Preferences Saved
                     </h3>
-                    <p className="text-purple-200/80 text-xs font-mono leading-relaxed max-w-sm mx-auto">
+                    <p className="text-purple-100/90 text-xs font-mono leading-relaxed max-w-sm mx-auto">
                       Thank you, <span className="text-white font-bold">{name}</span>. Your alert preferences were saved.
                     </p>
-                    <p className="text-purple-300/60 text-[11px] leading-relaxed font-mono max-w-xs mx-auto">
+                    <p className="text-purple-200/80 text-[11px] leading-relaxed font-mono max-w-xs mx-auto">
                       Future alerts can be sent by {smsConsent && phone ? "text" : "email"} to <span className="text-white font-bold">{smsConsent && phone ? phone : email}</span>.
                     </p>
                   </div>
@@ -342,14 +342,14 @@ export default function ContactPage() {
         <div className="max-w-[1800px] mx-auto px-8 flex flex-col md:flex-row justify-between items-end gap-12">
           <div className="flex flex-col gap-4">
             <h4 className="boutique-title text-4xl font-extrabold uppercase text-purple-200">{siteConfig.storeName.toUpperCase()}</h4>
-            <p className="mono-label !text-[8px] text-purple-300/30 max-w-[320px] leading-relaxed">
+            <p className="mono-label !text-[8px] text-purple-200/70 max-w-[320px] leading-relaxed">
               MEDICAL CANNABIS. ACCESSORIES. DEALS. CURBSIDE PICKUP ON GORE.
             </p>
           </div>
           
           <div className="flex flex-col items-end gap-2 text-right">
-            <span className="mono-label !text-[8px] text-purple-300/20 tracking-[0.2em] font-mono">Patient Over Profit</span>
-            <span className="mono-label !text-[8px] text-purple-300/10 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName}</span>
+            <span className="mono-label !text-[8px] text-purple-200/55 tracking-[0.2em] font-mono">Patient Over Profit</span>
+            <span className="mono-label !text-[8px] text-purple-200/40 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName}</span>
           </div>
         </div>
       </footer>

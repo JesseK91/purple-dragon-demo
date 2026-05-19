@@ -83,7 +83,7 @@ export default function ReviewFlowSection() {
             <h2 className="boutique-title text-3xl sm:text-4xl md:text-5xl uppercase font-black text-white leading-tight">
             Leave a public review or send private feedback.
             </h2>
-            <p className="text-purple-200/60 text-xs font-light leading-relaxed mt-2">
+            <p className="text-purple-100/90 text-xs font-light leading-relaxed mt-2">
             Leave a public review or share private feedback with the store team. Both options are available from the same page.
             </p>
           </div>
@@ -102,7 +102,7 @@ export default function ReviewFlowSection() {
               <h3 className="mono-label text-purple-200 font-bold text-xs uppercase tracking-widest mt-1 font-mono">
                 Public Review
               </h3>
-              <p className="text-[10px] text-purple-300/50 leading-relaxed font-mono px-4 uppercase">
+              <p className="text-[10px] text-purple-200/80 leading-relaxed font-mono px-4 uppercase">
                 Leave a public review to help other shoppers and patients evaluate the store.
               </p>
             </div>
@@ -121,7 +121,7 @@ export default function ReviewFlowSection() {
               <h3 className="mono-label text-purple-200 font-bold text-xs uppercase tracking-widest mt-1 font-mono">
                 Private Remarks
               </h3>
-              <p className="text-[10px] text-purple-300/50 leading-relaxed font-mono px-4 uppercase">
+              <p className="text-[10px] text-purple-200/80 leading-relaxed font-mono px-4 uppercase">
                 If something was off, send private feedback directly to the store team.
               </p>
             </div>
@@ -166,7 +166,7 @@ export default function ReviewFlowSection() {
               <div className="flex flex-col gap-2">
                 <span className="mono-label text-purple-400 tracking-[0.2em] text-[8px] uppercase font-mono">Store Team</span>
                 <h3 className="boutique-title text-3xl font-black text-white">Private Feedback</h3>
-                <p className="text-purple-200/60 text-xs font-light leading-relaxed">
+                <p className="text-purple-100/90 text-xs font-light leading-relaxed">
                   Your comments are delivered directly to store management for follow-up.
                 </p>
               </div>
@@ -182,7 +182,7 @@ export default function ReviewFlowSection() {
                   </div>
                   <div className="flex flex-col items-center text-center px-6">
                     <span className="mono-label text-white font-bold text-xs uppercase tracking-widest font-mono font-bold">Feedback Logged</span>
-                    <span className="text-[10px] text-purple-300/60 font-mono mt-2 leading-relaxed uppercase">
+                    <span className="text-[10px] text-purple-200/80 font-mono mt-2 leading-relaxed uppercase">
                       Thank you. Your note was saved for the store team to review.
                     </span>
                   </div>

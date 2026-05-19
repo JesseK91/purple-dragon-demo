@@ -180,18 +180,18 @@ export default function OwnerDashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <section className="border border-purple-900/30 bg-[#090312] p-6">
             <h2 className="boutique-title text-2xl uppercase font-black text-white">SMS-Ready Audience</h2>
-            <p className="text-purple-200/60 text-xs mt-2 font-mono">
+            <p className="text-purple-100/90 text-xs mt-2 font-mono">
               This dashboard captures consent and interests. It does not send cannabis SMS directly. Use export to sync with an approved provider.
             </p>
             <div className="mt-5 flex flex-col gap-3 max-h-[420px] overflow-y-auto">
               {leads.length === 0 && (
-                <p className="text-purple-300/40 text-xs font-mono border border-purple-900/30 p-4 bg-[#05010a]">No captured contacts in this browser session yet.</p>
+                <p className="text-purple-200/80 text-xs font-mono border border-purple-900/30 p-4 bg-[#05010a]">No captured contacts in this browser session yet.</p>
               )}
               {leads.map((lead) => (
                 <div key={lead.id} className="border border-purple-900/30 p-3 bg-[#05010a]">
                   <p className="text-sm font-bold text-white">{lead.name}</p>
-                  <p className="text-[10px] text-purple-300/60 font-mono">{lead.phone || "No phone"} | {lead.email || "No email"}</p>
-                  <p className="text-[10px] text-purple-300/60 font-mono">
+                  <p className="text-[10px] text-purple-200/80 font-mono">{lead.phone || "No phone"} | {lead.email || "No email"}</p>
+                  <p className="text-[10px] text-purple-200/80 font-mono">
                     {lead.license === "SMS-OPT-IN" ? "SMS-READY" : "EMAIL-ONLY"} | {(lead.categories ?? []).join(", ") || "No tags"}
                   </p>
                 </div>
@@ -201,20 +201,20 @@ export default function OwnerDashboard() {
 
           <section className="border border-purple-900/30 bg-[#090312] p-6">
             <h2 className="boutique-title text-2xl uppercase font-black text-white">Recent Events</h2>
-            <p className="text-purple-200/60 text-xs mt-2 font-mono">
+            <p className="text-purple-100/90 text-xs mt-2 font-mono">
               Event log from the storefront tracking layer. These are owner-facing proof metrics, not vanity traffic.
             </p>
             <div className="mt-5 flex flex-col gap-3 max-h-[420px] overflow-y-auto">
               {events.length === 0 && (
-                <p className="text-purple-300/40 text-xs font-mono border border-purple-900/30 p-4 bg-[#05010a]">No storefront events captured yet.</p>
+                <p className="text-purple-200/80 text-xs font-mono border border-purple-900/30 p-4 bg-[#05010a]">No storefront events captured yet.</p>
               )}
               {events
                 .slice()
                 .reverse()
                 .map((event, idx) => (
                   <div key={`${event.timestamp}-${idx}`} className="border border-purple-900/30 p-3 bg-[#05010a]">
-                    <p className="text-[10px] font-mono uppercase text-purple-200/70">{event.eventName}</p>
-                    <p className="text-[10px] font-mono text-purple-300/40">{new Date(event.timestamp).toLocaleString()}</p>
+                    <p className="text-[10px] font-mono uppercase text-purple-100/90">{event.eventName}</p>
+                    <p className="text-[10px] font-mono text-purple-200/70">{new Date(event.timestamp).toLocaleString()}</p>
                   </div>
                 ))}
             </div>

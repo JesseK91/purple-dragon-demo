@@ -552,7 +552,7 @@ export default function FeaturedMenu({
               Fresh Drops
             </h2>
           </div>
-          <p className="max-w-md text-white/60 text-xs font-light leading-relaxed">
+          <p className="max-w-md text-white/80 text-xs font-light leading-relaxed">
             A premium selection of curated medical flower, concentrates, vapes, and essentials. View today&apos;s drop availability or tap curbside order to lock in your items.
           </p>
         </div>
@@ -616,7 +616,7 @@ export default function FeaturedMenu({
 
                   <div className="flex flex-col gap-1">
                     <h3 className="boutique-title text-2xl font-black text-white">{product.name}</h3>
-                    <span className="mono-label text-purple-300/60 !text-[8px] font-mono tracking-wide uppercase">
+                    <span className="mono-label text-purple-200/80 !text-[8px] font-mono tracking-wide uppercase">
                       {product.lineage}
                     </span>
                   </div>
@@ -687,7 +687,7 @@ export default function FeaturedMenu({
 
                 <div className="flex flex-col gap-2">
                   <h3 className="boutique-title text-2xl font-black text-white">Restocks & Drops</h3>
-                  <p className="text-xs text-purple-300/60 leading-relaxed font-light">
+                  <p className="text-xs text-purple-100/90 leading-relaxed font-light">
                     Solventless live rosin batches and premium top-shelf flower rotate daily. Join the drop alerts list to be notified instantly on restocks.
                   </p>
                 </div>
@@ -789,7 +789,7 @@ export default function FeaturedMenu({
               <div className="flex flex-col gap-2">
                 <span className="mono-label text-purple-400 tracking-[0.2em] text-[8px] uppercase font-mono">Waitlist & Drops</span>
                 <h3 className="boutique-title text-3xl font-black text-white">{selectedProduct.name}</h3>
-                <p className="text-purple-200/60 text-xs font-light leading-relaxed">
+                <p className="text-purple-100/90 text-xs font-light leading-relaxed">
                   Ask about availability or join alerts for this item. Email is fine. Texts are optional and only apply if you choose to receive them.
                 </p>
               </div>
@@ -805,7 +805,7 @@ export default function FeaturedMenu({
                   </div>
                   <div className="flex flex-col items-center text-center px-6">
                     <span className="mono-label text-yellow-400 font-bold text-xs uppercase tracking-widest font-mono">Request Sent</span>
-                    <span className="text-[10px] text-purple-200/60 font-mono mt-2 leading-relaxed uppercase">
+                    <span className="text-[10px] text-purple-100/95 font-mono mt-2 leading-relaxed uppercase">
                       Thanks. We saved your availability request for {selectedProduct.name}.
                     </span>
                   </div>
@@ -884,7 +884,7 @@ export default function FeaturedMenu({
                       onChange={(e) => setSmsConsent(e.target.checked)}
                       className="mt-1 bg-transparent border-purple-800/30 focus:ring-0 rounded-sm cursor-pointer"
                     />
-                    <label htmlFor="modal-consent" className="text-[9px] text-purple-300/50 leading-relaxed font-mono">
+                    <label htmlFor="modal-consent" className="text-[9px] text-purple-200/80 leading-relaxed font-mono">
                       Optional text alerts: I agree to receive marketing text messages from {siteConfig.storeName} at the phone number provided. Message frequency may vary. Reply STOP to opt out. Email alerts do not require SMS consent.
                     </label>
                   </div>

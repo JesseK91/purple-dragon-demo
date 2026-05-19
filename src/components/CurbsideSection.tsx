@@ -68,7 +68,7 @@ export default function CurbsideSection() {
               <Sparkles size={12} className="text-yellow-400" />
               PREMIUM SERVICE STANDARD
             </span>
-            <p className="text-purple-200/60 text-xs font-light leading-relaxed max-w-lg">
+            <p className="text-purple-100/90 text-xs font-light leading-relaxed max-w-lg">
               Your time is valuable. Our curbside fulfillment system is designed to get you verified and on your way quickly without making pickup feel complicated.
             </p>
           </div>
@@ -90,7 +90,7 @@ export default function CurbsideSection() {
                   <h3 className="boutique-title text-2xl font-black text-white uppercase tracking-tight">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-purple-200/50 leading-relaxed font-light">
+                    <p className="text-xs text-purple-100/90 leading-relaxed font-light">
                     {item.copy}
                   </p>
                 </div>
@@ -103,7 +103,7 @@ export default function CurbsideSection() {
         <div className="flex flex-wrap gap-4 border border-purple-900/20 p-6 bg-purple-950/10 rounded-sm justify-between items-center">
           <div className="flex flex-col gap-1">
             <span className="mono-label text-white font-bold text-[9px] uppercase tracking-widest font-mono">Ready to Order?</span>
-            <span className="text-[10px] text-purple-300/50 font-mono uppercase">Secure your medical selection immediately on Gore Blvd.</span>
+            <span className="text-[10px] text-purple-200/80 font-mono uppercase">Secure your medical selection immediately on Gore Blvd.</span>
           </div>
 
           <div className="flex flex-wrap gap-3">

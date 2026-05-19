@@ -19,10 +19,10 @@ export default function TextClubSection() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <p className="text-purple-200/70 text-sm font-light leading-relaxed">
+            <p className="text-purple-100/90 text-sm font-light leading-relaxed">
               Join by email or optionally opt in to text alerts. Receive exclusive updates, priority restock alerts, and daily special announcements directly to your device.
             </p>
-            <p className="text-purple-300/60 text-xs font-light leading-relaxed">
+            <p className="text-purple-200/80 text-xs font-light leading-relaxed">
               Stay connected with our latest menu updates. Be the first to know when we restock your favorite flower strains, concentrates, and fresh local drops.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function TextClubSection() {
               <Sparkles size={12} className="text-yellow-400" />
               VIP DISPENSARY ALERTS
             </span>
-            <p className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">
+            <p className="text-[11px] text-purple-200/80 leading-relaxed font-mono uppercase">
               Get notifications sent directly to your phone or email. You can customize your preferences or opt out at any time.
             </p>
           </div>
