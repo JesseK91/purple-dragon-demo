@@ -18,6 +18,7 @@ export default function LocationSection() {
 
   const handleMapInteraction = () => {
     track("map_interaction");
+    window.open(siteConfig.googleMapsUrl, "_blank");
   };
 
   const serviceAreas = [
@@ -106,6 +107,13 @@ export default function LocationSection() {
           <div
             onClick={handleMapInteraction}
             className="w-full h-80 border border-purple-900/30 bg-[#0c0517] relative flex items-center justify-center overflow-hidden cursor-pointer group hover:border-yellow-500/30 transition-all duration-500 rounded-sm"
+            role="button"
+            tabIndex={0}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                handleMapInteraction();
+              }
+            }}
           >
             {/* Abstract Grid Line art simulating maps */}
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(147,51,234,0.02)_1px,transparent_1px),linear-gradient(rgba(147,51,234,0.02)_1px,transparent_1px)] bg-[size:40px_40px] opacity-60" />
