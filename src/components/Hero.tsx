@@ -75,7 +75,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-              className="boutique-title text-4xl sm:text-6xl md:text-7xl xl:text-8xl uppercase font-black tracking-tighter leading-[0.85] text-purple-200"
+              className="boutique-title text-4xl sm:text-6xl md:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.85] text-purple-200"
             >
               {siteConfig.storeName}<br />
               <span className="text-yellow-400 border border-yellow-400/20 px-4 mt-4 inline-block text-xl sm:text-2xl md:text-3xl tracking-widest font-mono uppercase font-black">

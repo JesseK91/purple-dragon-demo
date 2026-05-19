@@ -82,7 +82,7 @@ export default function Navbar({ cartCount = 0, onOpenCart, onNavigate }: Navbar
               <div className="w-8 h-8 bg-yellow-500 flex items-center justify-center border border-yellow-400">
                 <span className="text-black font-mono text-xs font-black italic">PD</span>
               </div>
-              <span className="boutique-title text-xl uppercase font-extrabold tracking-tighter text-purple-200">
+              <span className="boutique-title text-xl font-extrabold tracking-tighter text-purple-200">
                 {siteConfig.storeName}
               </span>
             </motion.div>

@@ -195,7 +195,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
       <footer className="py-16 border-t border-purple-950/20 bg-black">
         <div className="max-w-[1400px] mx-auto px-8 flex flex-col md:flex-row justify-between items-end gap-12">
           <div className="flex flex-col gap-3">
-            <h4 className="boutique-title text-3xl font-extrabold uppercase text-purple-200">{siteConfig.storeName}</h4>
+            <h4 className="boutique-title text-3xl font-extrabold text-purple-200">{siteConfig.storeName}</h4>
             <p className="mono-label !text-[8px] text-purple-300/30 max-w-[360px] leading-relaxed">
               {siteConfig.address.toUpperCase()} | DISPATCH: {siteConfig.phone}
             </p>
@@ -203,7 +203,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
           
           <div className="flex flex-col items-end gap-1 text-right">
             <span className="mono-label !text-[7px] text-purple-300/20 tracking-[0.2em] font-mono">OMMA patient license required</span>
-            <span className="mono-label !text-[7px] text-purple-300/10 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName.toUpperCase()} CANNABIS CO.</span>
+            <span className="mono-label !text-[7px] text-purple-300/10 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName} Cannabis Co.</span>
           </div>
         </div>
       </footer>

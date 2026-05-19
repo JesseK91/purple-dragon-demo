@@ -349,7 +349,7 @@ export default function ContactPage() {
           
           <div className="flex flex-col items-end gap-2 text-right">
             <span className="mono-label !text-[8px] text-purple-300/20 tracking-[0.2em] font-mono">Patient Over Profit</span>
-            <span className="mono-label !text-[8px] text-purple-300/10 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName.toUpperCase()}</span>
+            <span className="mono-label !text-[8px] text-purple-300/10 tracking-[0.2em] font-mono">© 2026 {siteConfig.storeName}</span>
           </div>
         </div>
       </footer>

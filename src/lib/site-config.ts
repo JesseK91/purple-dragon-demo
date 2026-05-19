@@ -14,7 +14,7 @@ export interface SiteConfig {
 export type MenuProvider = "weedmaps" | "dutchie" | "jane";
 
 export const siteConfig: SiteConfig = {
-  storeName: "THE PURPLE DRAGON",
+  storeName: "The Purple Dragon",
   address: "1314 W Gore Blvd, Lawton, OK 73501",
   phone: "+1 (580) 699-7474",
   googleMapsUrl: "https://maps.google.com/?q=The+Purple+Dragon+1314+W+Gore+Blvd+Lawton+OK+73501",

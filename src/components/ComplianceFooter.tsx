@@ -34,7 +34,7 @@ export default function ComplianceFooter() {
           
           {/* Logo Brand Descriptor */}
           <div className="md:col-span-4 flex flex-col gap-4">
-            <h4 className="boutique-title text-3xl font-extrabold uppercase tracking-tighter text-white">
+            <h4 className="boutique-title text-3xl font-extrabold tracking-tighter text-white">
               {siteConfig.storeName}
             </h4>
             <span className="mono-label text-purple-400 !text-[8px] font-mono tracking-widest uppercase">
