@@ -69,7 +69,7 @@ export default function CurbsideSection() {
               PREMIUM SERVICE STANDARD
             </span>
             <p className="text-purple-200/60 text-xs font-light leading-relaxed max-w-lg">
-              Your time is valuable. Our dedicated drive-thru window and curbside fulfillment system is designed to get you verified and on your way in under five minutes.
+              Your time is valuable. Our curbside fulfillment system is designed to get you verified and on your way quickly without making pickup feel complicated.
             </p>
           </div>
         </div>

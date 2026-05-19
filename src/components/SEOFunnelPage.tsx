@@ -23,7 +23,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
 
   const handleDirections = () => {
     track("directions_clicked", { source: data.sourceTag });
-    window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(siteConfig.address + " Lawton OK 73505")}`, "_blank");
+    window.open(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(siteConfig.address)}`, "_blank");
   };
 
   const handleMenuClick = () => {
@@ -136,7 +136,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
                 </div>
                 <div className="flex flex-col gap-0.5">
                   <span className="mono-label text-purple-300/30 !text-[7px]">Find Us</span>
-                  <span className="mono-label text-white font-black text-[10px] tracking-wider font-mono">{siteConfig.address}, Lawton</span>
+                  <span className="mono-label text-white font-black text-[10px] tracking-wider font-mono">{siteConfig.address}</span>
                 </div>
               </button>
 
@@ -197,7 +197,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
           <div className="flex flex-col gap-3">
             <h4 className="boutique-title text-3xl font-extrabold uppercase text-purple-200">{siteConfig.storeName}</h4>
             <p className="mono-label !text-[8px] text-purple-300/30 max-w-[360px] leading-relaxed">
-              {siteConfig.address.toUpperCase()}, LAWTON, OK 73505 | DISPATCH: {siteConfig.phone}
+              {siteConfig.address.toUpperCase()} | DISPATCH: {siteConfig.phone}
             </p>
           </div>
           

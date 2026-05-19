@@ -44,7 +44,7 @@ export default function FullMenuRouting() {
             Menu Integrations
           </h2>
           <p className="text-purple-200/60 text-xs font-light leading-relaxed mt-2">
-            Use {siteConfig.storeName}&apos;s existing Weedmaps, Dutchie, or Jane menu for live availability and pickup ordering. This site acts as the branded front door for deals, fresh drops, text alerts, reviews, and local trust.
+            Use {siteConfig.storeName}&apos;s live Weedmaps menu for availability and pickup ordering. This site acts as the branded front door for deals, fresh drops, alerts, reviews, and local trust.
           </p>
         </div>
 

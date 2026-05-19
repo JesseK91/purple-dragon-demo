@@ -19,24 +19,25 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Purple Dragon | Lawton Dispensary, Smoke Shop & Drive-Thru",
-  description: "Browse The Purple Dragon in Lawton, Oklahoma for medical cannabis, head shop glass, drive-thru pickup, curbside, directions, and text alerts.",
+  title: "The Purple Dragon | Lawton Dispensary, Patient Specials & Coffee Bar",
+  description: "Browse The Purple Dragon in Lawton, Oklahoma for first-visit specials, Happy Hour, loyalty points, coffee bar access, curbside pickup, directions, and the live menu.",
   keywords: [
     "Lawton dispensary",
-    "Lawton smoke shop",
+    "Lawton head shop",
     "medical cannabis Lawton OK",
     "Purple Dragon Lawton",
     "dispensary deals Lawton",
-    "drive-thru dispensary Lawton",
+    "patient specials Lawton",
+    "Happy Hour Lawton dispensary",
     "OMMA medical cards Oklahoma",
     "curbside weed pickup Lawton",
-    "head shop Lawton OK",
+    "coffee bar Lawton dispensary",
     "dispensaries in Lawton OK"
   ],
   authors: [{ name: "The Purple Dragon" }],
   openGraph: {
-    title: "The Purple Dragon | Lawton Dispensary, Smoke Shop & Drive-Thru",
-    description: "Medical cannabis deals, head shop glass, coffee bar access, drive-thru window, and curbside pickup on Gore Blvd for licensed Oklahoma patients.",
+    title: "The Purple Dragon | Lawton Dispensary, Patient Specials & Coffee Bar",
+    description: "Medical cannabis deals, first-visit rewards, loyalty points, coffee bar access, and curbside pickup on Gore Blvd for licensed Oklahoma patients.",
     url: "https://purple-dragon-demo.pages.dev",
     siteName: "The Purple Dragon",
     images: [
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
         url: "https://purple-dragon-demo.pages.dev/strain-purple.webp",
         width: 1200,
         height: 630,
-        alt: "The Purple Dragon Lawton dispensary and smoke shop",
+        alt: "The Purple Dragon Lawton dispensary and patient specials",
       },
     ],
     locale: "en_US",

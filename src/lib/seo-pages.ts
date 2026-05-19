@@ -18,10 +18,10 @@ export const seoPages: Record<string, SEOPageData> = {
     slug: "lawton-dispensary-deals",
     title: "Lawton Dispensary Deals & Medical Marijuana Specials | The Purple Dragon",
     description:
-      "Save at The Purple Dragon on Gore Blvd. Featured specials include 20% off your 1st visit, 25% off your 2nd visit, and 30% off your 3rd visit, plus 10% everyday Military discount.",
+      "Find Purple Dragon patient specials on Gore Blvd: 20% off your first visit, 25% off your second, 30% off your third, plus Happy Hour, loyalty points, and military savings.",
     h1: "Lawton Medical Marijuana Deals & Daily Specials",
     intro:
-      "Welcome to the home of Lawton's best patient specials. From our signature 20%, 25%, and 30% first-visit discounts to everyday military savings and free pre-rolls for review feedback, we keep the rules transparent and the savings direct.",
+      "The Purple Dragon's live specials are straightforward: 20% off the first visit, 25% off the second, 30% off the third, plus loyalty points, coffee bar vibes, Happy Hour, and military savings when active.",
     primaryCta: "Get Today's Deals by Text",
     sourceTag: "source_lawton_deals_page",
     defaultInterest: "Budget Deals",
@@ -30,31 +30,31 @@ export const seoPages: Record<string, SEOPageData> = {
       {
         title: "Today's Specials",
         content:
-          "Our core promotions are built around the patient. New to the store? Claim our three-tiered welcome: 20% off your first visit, 25% off your second, and 30% off your third. We also offer 10% off everyday for military veterans, and a free pre-roll when you leave us a review.",
+          "New patients get 20% off the first visit, 25% off the second, and 30% off the third. The store also advertises a 10% military discount, loyalty points, and a review perk for a free pre-roll. Happy Hour pricing has been advertised at 15% off the entire store during 9AM-1PM and 9PM-10PM.",
         highlight:
-          "Bring an active OMMA patient license and photo ID. Final pricing and availability are confirmed in store."
+          "Bring an active OMMA patient license and photo ID. Final pricing, hours, and active specials are confirmed in store."
       },
       {
         title: "Deal Alerts Without the Hunt",
         content:
-          "Marketplace menus are useful, but they are not always the easiest way to catch a quick special. Join our SMS list to get direct notifications about fresh flower drops, cart specials, and exclusive double-point loyalty days."
+          "Marketplace menus are useful, but they are not always the easiest way to catch a quick special. Join our alerts to get updates on flower drops, cart specials, Happy Hour, and loyalty-point days."
       }
     ],
     faqs: [
       {
         question: "Do you have a first-time patient deal?",
         answer:
-          "Yes! We offer a tiered sequence: 20% off your 1st visit, 25% off your 2nd visit, and 30% off your 3rd visit on all medical cannabis purchases."
+          "Yes. The current first-visit ladder is 20% off your first visit, 25% off your second, and 30% off your third. The first visit also includes a Budtender's Choice pre-roll."
       },
       {
         question: "Do you offer military or senior citizen discounts?",
         answer:
-          "Yes, active military and retired veterans receive 10% off their order everyday. Valid ID and OMMA license required."
+          "Purple Dragon advertises a 10% military discount with valid ID. Check in store for the current requirements and any category restrictions."
       },
       {
         question: "How do I get a free pre-roll?",
         answer:
-          "Leave a Google or Weedmaps review of your visit, show it to your budtender at checkout, and receive a free high-quality pre-roll (limit 1 per patient)."
+          "Purple Dragon advertises a free pre-roll for a live Google or Weedmaps review shown at checkout. Limit one per patient."
       }
     ],
     relatedPages: [
@@ -70,7 +70,7 @@ export const seoPages: Record<string, SEOPageData> = {
       "Looking for birthday dispensary deals in Lawton? Join The Purple Dragon text alerts for birthday reminders, fresh drops, and weekly medical marijuana specials.",
     h1: "Birthday Medical Marijuana Deals in Lawton",
     intro:
-      "Birthday week is a good excuse to check the menu. Join the birthday list and we will keep the reminder simple: what to bring, what is available, and how to find the current deal.",
+      "Birthday week is a good excuse to check the menu. Use this page for birthday reminders, what to bring, and any current birthday-related offer the store may have running.",
     primaryCta: "Text Me Birthday Deals",
     sourceTag: "source_birthday_deals_page",
     defaultInterest: "Birthday Deals",
@@ -119,7 +119,7 @@ export const seoPages: Record<string, SEOPageData> = {
       "Find Lawton flower deals, fresh drops, budget flower, and weekly medical marijuana specials from The Purple Dragon.",
     h1: "Lawton Flower Deals & Fresh Drops",
     intro:
-      "If you mostly shop flower, you do not want to dig through a whole menu every day. This page keeps the flower lane separate: fresh drops, value eighths, ounce specials when available, and quick links to the full menu.",
+      "If you mostly shop flower, you do not want to dig through a whole menu every day. This page keeps the flower lane separate: fresh drops, value eighths, ounce specials when available, and quick links to the live menu.",
     primaryCta: "Get Flower Deals by Text",
     sourceTag: "source_flower_deals_page",
     defaultInterest: "Flower",
@@ -128,7 +128,7 @@ export const seoPages: Record<string, SEOPageData> = {
       {
         title: "Fresh Flower, When It Is Actually Fresh",
         content:
-          "Good flower shoppers ask different questions: how fresh is it, what size is available, what is the price tier, and is it still on the shelf? The final menu should answer those questions plainly without dressing every strain up like a luxury product.",
+          "Good flower shoppers ask different questions: how fresh is it, what size is available, what is the price tier, and is it still on the shelf? The live menu should answer those questions plainly without dressing every strain up like a luxury product.",
         highlight:
           "THC, terpene, and batch details can vary. Check current labels or ask staff for the latest product information."
       },
@@ -165,11 +165,11 @@ export const seoPages: Record<string, SEOPageData> = {
     slug: "first-time-patients",
     title: "First-Time Medical Marijuana Patients in Lawton | The Purple Dragon",
     description:
-      "First time visiting The Purple Dragon? Claim our first-time patient deals: 20% off your 1st visit, 25% off your 2nd visit, and 30% off your 3rd visit on Gore Blvd.",
+      "First time visiting The Purple Dragon? Claim the first-visit ladder: 20% off your first visit, 25% off your second, and 30% off your third on Gore Blvd.",
     h1: "First-Time Patient Welcome Rewards: 20%, 25%, & 30% Off",
     intro:
-      "Welcome to The Purple Dragon. To make your first visits memorable, we offer a three-tiered welcome reward sequence: 20% off your entire first visit, 25% off your second visit, and 30% off your third consecutive visit.",
-    primaryCta: "Claim Your 20% First-Visit Deal",
+      "Welcome to The Purple Dragon. To make your first visits memorable, we offer a three-tiered welcome reward sequence: 20% off your entire first visit, 25% off your second visit, and 30% off your third consecutive visit. The first visit also includes a Budtender's Choice pre-roll.",
+    primaryCta: "Claim Your First-Visit Deal",
     sourceTag: "source_first_time_patients_page",
     defaultInterest: "First-Time Offers",
     heroBadge: "FIRST VISIT",
@@ -177,7 +177,7 @@ export const seoPages: Record<string, SEOPageData> = {
       {
         title: "Three-Tiered Welcome Specials",
         content:
-          "Unlike generic stores, we reward your loyalty over multiple visits. On your first visit, get 20% off everything. When you return for your second visit, enjoy 25% off. On your third visit, complete the sequence with 30% off your entire order.",
+          "Unlike generic stores, we reward your loyalty over multiple visits. On your first visit, get 20% off everything and a Budtender's Choice pre-roll. When you return for your second visit, enjoy 25% off. On your third visit, complete the sequence with 30% off your entire order.",
         highlight:
           "Available for all active OMMA cardholders on their first three visits. Cannot stack with other daily discounts."
       },
@@ -203,7 +203,7 @@ export const seoPages: Record<string, SEOPageData> = {
       {
         question: "Can I use the first-time discount on any products?",
         answer:
-          "Yes, the discounts apply to your entire order, including premium flower, cartridges, and edibles. Exclusions may apply to select handcrafted local glass items."
+          "Yes, the first-time ladder applies to your order at checkout. Some categories or in-store items may have exclusions, so staff should confirm the current rules before you pay."
       },
       {
         question: "What do I need to bring to claim a deal?",
@@ -262,7 +262,7 @@ export const seoPages: Record<string, SEOPageData> = {
       {
         question: "Are there veteran or military specials?",
         answer:
-          "Veteran or military specials may be available. Check current deal information or join alerts so the store can send updates when those offers are active."
+          "Purple Dragon advertises a 10% military discount. Check current deal information or ask staff for the latest in-store rules."
       }
     ],
     relatedPages: [

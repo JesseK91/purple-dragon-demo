@@ -144,7 +144,7 @@ export default function DealsSection() {
             </h2>
           </div>
           <p className="max-w-md text-purple-300/60 text-xs font-light leading-relaxed">
-            Featured specials for licensed OMMA customers. Claim a deal, join alerts, or open the full menu before heading to Gore Blvd.
+            Featured specials for licensed OMMA customers. Claim a deal, check Happy Hour, join alerts, or open the full menu before heading to Gore Blvd.
           </p>
         </div>
 

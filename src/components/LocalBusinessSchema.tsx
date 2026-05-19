@@ -5,7 +5,7 @@ export default function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "Dispensary",
     "@id": "https://purple-dragon-demo.pages.dev/#dispensary",
-    "name": `${siteConfig.storeName} Dispensary & Smoke Shop`,
+    "name": `${siteConfig.storeName} Dispensary`,
     "alternateName": ["The Purple Dragon Dispensary", "The Purple Dragon Lawton", "Purple Dragon Lawton"],
     "image": "https://purple-dragon-demo.pages.dev/purple-dragon-mascot.png",
     "url": "https://purple-dragon-demo.pages.dev",
@@ -16,7 +16,7 @@ export default function LocalBusinessSchema() {
       "streetAddress": siteConfig.address,
       "addressLocality": "Lawton",
       "addressRegion": "OK",
-      "postalCode": "73505",
+      "postalCode": "73501",
       "addressCountry": "US"
     },
     "geo": {
@@ -34,7 +34,7 @@ export default function LocalBusinessSchema() {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Sunday",
-        "opens": "10:00",
+        "opens": "12:00",
         "closes": "20:00"
       }
     ],
@@ -42,7 +42,7 @@ export default function LocalBusinessSchema() {
       siteConfig.weedmapsMenuUrl,
       "https://www.google.com/maps?cid=YOUR_CID_IF_AVAILABLE"
     ],
-    "description": "Medical cannabis dispensary and smoke shop in Lawton, Oklahoma offering flower, concentrates, gummies, vapes, head shop glass, drive-thru pickup, and curbside service for licensed Oklahoma patients.",
+    "description": "Medical cannabis dispensary in Lawton, Oklahoma offering flower, concentrates, gummies, vapes, head shop accessories, coffee bar service, loyalty points, first-time patient specials, military savings, and curbside pickup for licensed Oklahoma patients.",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Lawton"

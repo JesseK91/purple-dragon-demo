@@ -76,8 +76,8 @@ export default function LocationSection() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="mono-label text-purple-400/55 text-[8px] uppercase font-mono">Curbside & Store Hours</span>
-                <span className="font-bold text-sm tracking-tight text-white">Monday – Saturday: 10:00 AM – 8:00 PM</span>
-                <span className="text-[10px] text-purple-300/40 font-mono">Sunday: Closed</span>
+                <span className="font-bold text-sm tracking-tight text-white">Monday – Saturday: 9:00 AM – 10:00 PM</span>
+                <span className="text-[10px] text-purple-300/40 font-mono">Sunday: 12:00 PM – 8:00 PM</span>
               </div>
             </div>
 
@@ -138,7 +138,7 @@ export default function LocationSection() {
             </div>
             
             <p className="text-[10px] text-purple-300/60 leading-relaxed font-mono uppercase">
-              Medical cannabis, drive-thru pickup, and smoke shop accessories for licensed Oklahoma patients. Located on Gore Blvd for rapid curbside or in-store visits.
+              Medical cannabis, curbside pickup, coffee bar service, and head shop accessories for licensed Oklahoma patients. Located on Gore Blvd for rapid curbside or in-store visits.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-1">

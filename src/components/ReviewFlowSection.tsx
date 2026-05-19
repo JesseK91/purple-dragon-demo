@@ -81,7 +81,7 @@ export default function ReviewFlowSection() {
             How Was Your Visit?
             </span>
             <h2 className="boutique-title text-3xl sm:text-4xl md:text-5xl uppercase font-black text-white leading-tight">
-            Tell us how the visit went.
+            Leave a public review or send private feedback.
             </h2>
             <p className="text-purple-200/60 text-xs font-light leading-relaxed mt-2">
             Leave a public review or share private feedback with the store team. Both options are available from the same page.

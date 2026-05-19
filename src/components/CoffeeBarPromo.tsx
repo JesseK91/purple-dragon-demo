@@ -33,7 +33,7 @@ export default function CoffeeBarPromo() {
           </h2>
 
           <p className="text-purple-200/60 text-sm font-light leading-relaxed max-w-xl">
-            At {siteConfig.storeName}, we believe the wait should be as enjoyable as the menu. Our lobby features a fully loaded complimentary espresso and coffee bar, fresh refreshments, and a comfortable seating lounge designed specifically for our local Lawton patients.
+            At {siteConfig.storeName}, we believe the wait should be as enjoyable as the menu. The lobby features a complimentary coffee bar, fresh refreshments, and a comfortable seating lounge for local Lawton patients.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
@@ -43,7 +43,7 @@ export default function CoffeeBarPromo() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Espresso & Coffee</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Freshly brewed and free for patients</span>
+                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Free coffee bar for patients</span>
               </div>
             </div>
 

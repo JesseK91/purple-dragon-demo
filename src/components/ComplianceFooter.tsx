@@ -38,10 +38,10 @@ export default function ComplianceFooter() {
               {siteConfig.storeName}
             </h4>
             <span className="mono-label text-purple-400 !text-[8px] font-mono tracking-widest uppercase">
-              Lawton Dispensary & Smoke Shop
+              Lawton Dispensary, Coffee Bar & Head Shop
             </span>
             <p className="text-[10px] text-purple-300/50 leading-relaxed font-mono max-w-sm mt-2 uppercase">
-              Serving licensed OMMA patients in Lawton, Fort Sill, and Southwest Oklahoma with curbside, drive-thru, and in-store options.
+              Serving licensed OMMA patients in Lawton, Fort Sill, and Southwest Oklahoma with curbside and in-store options.
             </p>
           </div>
 

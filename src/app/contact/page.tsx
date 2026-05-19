@@ -143,13 +143,13 @@ export default function ContactPage() {
               <div className="flex flex-col gap-2">
                 <span className="mono-label text-purple-300/20 !text-[8px]">Location</span>
                 <span className="mono-label text-white font-mono text-xs leading-relaxed">
-                  {siteConfig.address}<br />Lawton, OK 73505
+                  {siteConfig.address}
                 </span>
               </div>
               <div className="flex flex-col gap-2">
                 <span className="mono-label text-purple-300/20 !text-[8px]">Curbside Hours</span>
                 <span className="mono-label text-white font-mono text-xs leading-relaxed">
-                  Mon – Sat: 9am – 10pm<br />Sun: 10am – 8pm
+                  Mon – Sat: 9am – 10pm<br />Sun: 12pm – 8pm
                 </span>
               </div>
             </div>

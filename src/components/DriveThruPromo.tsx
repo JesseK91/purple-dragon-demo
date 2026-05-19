@@ -26,17 +26,17 @@ export default function DriveThruPromo() {
           <div className="flex items-center gap-3">
             <Sparkles size={16} className="text-yellow-400" />
             <span className="mono-label tracking-[0.3em] uppercase text-purple-400">
-              DISPENSARY EXCLUSIVES
+              QUICK PICKUP
             </span>
           </div>
 
           <h2 className="boutique-title text-4xl sm:text-5xl xl:text-6xl font-black text-white uppercase tracking-tight leading-none">
-            DRIVE-THRU LANE & <br />
-            <span className="text-yellow-400">GLASS BOUTIQUE</span>
+            CURBSIDE PICKUP & <br />
+            <span className="text-yellow-400">FAST CHECKOUT</span>
           </h2>
 
           <p className="text-purple-200/60 text-sm font-light leading-relaxed max-w-xl">
-            We do things differently at {siteConfig.storeName}. Skip the wait with our convenient patient drive-thru window, or step inside to browse Oklahoma&apos;s finest collection of locally crafted glass rigs, bongs, and premium smoking accessories.
+            We do things differently at {siteConfig.storeName}. Skip the wait with curbside pickup, or step inside to browse the front head shop, ATM, and the live menu before you place your order.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
@@ -45,8 +45,8 @@ export default function DriveThruPromo() {
                 <Car size={20} />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Patient Drive-Thru</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Quick, secure window pickup for online orders</span>
+                <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Curbside Pickup</span>
+                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Quick pickup for pre-orders and live menu items</span>
               </div>
             </div>
 
@@ -55,8 +55,8 @@ export default function DriveThruPromo() {
                 <GlassWater size={20} />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Premium Glassware</span>
-                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Locally blown rigs, ceramic pipes & bongs</span>
+                <span className="font-bold text-sm tracking-tight text-white uppercase font-display">Head Shop Access</span>
+                <span className="text-[11px] text-purple-300/50 leading-relaxed font-mono uppercase">Papers, accessories, rigs, and store merch</span>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function DriveThruPromo() {
               Order Online, Pick Up in Seconds
             </h3>
             <p className="text-[11px] text-purple-300/60 leading-normal font-mono uppercase">
-              Submit your curbside or drive-thru pre-order via our menu below. We will package your selection instantly. Just pull up, present your OMMA patient card, and get back on the road.
+              Submit your curbside pre-order via the live menu below. We will package your selection, then verify your OMMA patient card and photo ID at pickup.
             </p>
           </div>
 

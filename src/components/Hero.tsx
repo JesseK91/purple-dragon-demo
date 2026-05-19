@@ -65,7 +65,7 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="flex items-center gap-3 mb-4"
             >
-              <div className="h-[1px] w-12 bg-yellow-500/50" />
+            <div className="h-[1px] w-12 bg-yellow-500/50" />
               <span className="mono-label text-yellow-400 tracking-[0.3em] drop-shadow-sm uppercase">
                 {siteConfig.address} / {siteConfig.ommaLicense}
               </span>
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               {siteConfig.storeName}<br />
               <span className="text-yellow-400 border border-yellow-400/20 px-4 mt-4 inline-block text-xl sm:text-2xl md:text-3xl tracking-widest font-mono uppercase font-black">
-                Fresh Drops. Drive-Thru. Coffee Bar.
+                Fresh Drops. Coffee Bar. Curbside Pickup.
               </span>
             </motion.h1>
           </div>
