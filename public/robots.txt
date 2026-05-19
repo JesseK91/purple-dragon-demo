@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /contact
+Disallow: /owner
+Disallow: /_next/
+Disallow: /private/
+
+Sitemap: https://purple-dragon-demo.pages.dev/sitemap.xml

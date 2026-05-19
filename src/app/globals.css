@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+
+  --color-background: #05010a; /* Deep purple-black */
+  --color-foreground: #F8F6FC; /* Off-white with faint purple tint */
+  --color-primary: #9333ea; /* Regal Purple */
+  --color-accent: #eab308; /* Vibrant Yellow/Gold */
+  --color-muted: #6b21a8; /* Darker Purple */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-accent selection:text-black;
+  }
+
+  * {
+    border-radius: 0 !important;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-[#0c0517]/80 backdrop-blur-xl border border-purple-900/30;
+  }
+
+  .mono-label {
+    @apply font-mono text-[10px] tracking-[0.2em] uppercase text-purple-300;
+  }
+
+  .boutique-title {
+    @apply font-display tracking-[-0.05em];
+  }
+}
+
