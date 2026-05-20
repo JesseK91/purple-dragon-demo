@@ -7,9 +7,22 @@
 
   --color-background: #05010a; /* Deep purple-black */
   --color-foreground: #F8F6FC; /* Off-white with faint purple tint */
-  --color-primary: #9333ea; /* Regal Purple */
+  --color-primary: #a853fc; /* Bright neon purple */
   --color-accent: #eab308; /* Vibrant Yellow/Gold */
-  --color-muted: #6b21a8; /* Darker Purple */
+  --color-muted: #6d1fe0; /* Rich medium purple */
+
+  /* Highly saturated, glowing electric purple range */
+  --color-purple-50: #fdfaff;
+  --color-purple-100: #f6e8ff;
+  --color-purple-200: #edd4ff;
+  --color-purple-300: #dbb0ff; /* Glowing lavender-purple */
+  --color-purple-400: #c582ff; /* Readable neon purple */
+  --color-purple-500: #a853fc; /* Electric violet */
+  --color-purple-600: #8b2cf5; /* Deep electric violet */
+  --color-purple-700: #6d1fe0;
+  --color-purple-800: #5512b8;
+  --color-purple-900: #3c0987;
+  --color-purple-950: #1a023b; /* Rich purple shadow */
 }
 
 @layer base {
@@ -35,31 +48,41 @@
     @apply font-display tracking-[-0.05em];
   }
 
-  /* Specificity overrides for buttons with .mono-label to ensure high contrast */
+  /* Specificity overrides: Ensure text utility colors take absolute precedence over .mono-label's default text-purple-300 */
+  .mono-label.text-black,
   button.mono-label.bg-yellow-500,
-  a.mono-label.bg-yellow-500 {
+  a.mono-label.bg-yellow-500,
+  span.mono-label.bg-yellow-500 {
     color: #000000 !important;
   }
 
+  .mono-label.text-yellow-400,
+  span.mono-label.text-yellow-400 {
+    color: var(--color-accent) !important;
+  }
+
+  /* Hover state overrides */
   button.mono-label.bg-yellow-500:hover,
   a.mono-label.bg-yellow-500:hover {
     color: var(--color-accent) !important;
   }
 
-  /* Ensure text becomes black on hover for outlined yellow buttons */
-  button.mono-label:hover,
-  a.mono-label:hover {
-    color: inherit;
-  }
-
+  .mono-label.hover\:text-black:hover,
   button.mono-label.hover\:text-black:hover,
   a.mono-label.hover\:text-black:hover {
     color: #000000 !important;
   }
 
+  .mono-label.hover\:text-yellow-400:hover,
   button.mono-label.hover\:text-yellow-400:hover,
   a.mono-label.hover\:text-yellow-400:hover {
     color: var(--color-accent) !important;
+  }
+
+  /* Outline hover defaults */
+  button.mono-label:hover,
+  a.mono-label:hover {
+    color: inherit;
   }
 }
 
