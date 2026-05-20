@@ -5,24 +5,24 @@
   --font-display: var(--font-outfit), sans-serif;
   --font-mono: var(--font-jetbrains-mono), monospace;
 
-  --color-background: #05010a; /* Deep purple-black */
-  --color-foreground: #F8F6FC; /* Off-white with faint purple tint */
-  --color-primary: #a853fc; /* Bright neon purple */
+  --color-background: #05020c; /* Deep rich violet-black */
+  --color-foreground: #f5f3ff; /* Off-white with faint violet tint */
+  --color-primary: #7c3aed; /* Premium Royal Violet */
   --color-accent: #eab308; /* Vibrant Yellow/Gold */
-  --color-muted: #6d1fe0; /* Rich medium purple */
+  --color-muted: #5b21b6; /* Rich deep violet */
 
-  /* Highly saturated, glowing electric purple range */
-  --color-purple-50: #fdfaff;
-  --color-purple-100: #f6e8ff;
-  --color-purple-200: #edd4ff;
-  --color-purple-300: #dbb0ff; /* Glowing lavender-purple */
-  --color-purple-400: #c582ff; /* Readable neon purple */
-  --color-purple-500: #a853fc; /* Electric violet */
-  --color-purple-600: #8b2cf5; /* Deep electric violet */
-  --color-purple-700: #6d1fe0;
-  --color-purple-800: #5512b8;
-  --color-purple-900: #3c0987;
-  --color-purple-950: #1a023b; /* Rich purple shadow */
+  /* Cool, elegant royal violet palette (leaning toward indigo) */
+  --color-purple-50: #f5f3ff;
+  --color-purple-100: #ede9fe;
+  --color-purple-200: #ddd6fe;
+  --color-purple-300: #c4b5fd;
+  --color-purple-400: #a78bfa;
+  --color-purple-500: #8b5cf6;
+  --color-purple-600: #7c3aed;
+  --color-purple-700: #6d28d9;
+  --color-purple-800: #5b21b6;
+  --color-purple-900: #4c1d95;
+  --color-purple-950: #1b1035; /* Deep violet-indigo card bg base */
 }
 
 @layer base {
