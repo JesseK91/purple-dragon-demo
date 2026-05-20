@@ -12,7 +12,7 @@ export default function CoffeeBarPromo() {
   };
 
   return (
-    <section className="py-24 px-8 bg-[#090312] border-t border-purple-950/20 relative overflow-hidden">
+    <section className="py-24 px-8 bg-background border-t border-purple-950/20 relative overflow-hidden">
       {/* Background ambient glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-purple-900/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-yellow-500/5 rounded-full blur-[150px] pointer-events-none" />
@@ -70,7 +70,7 @@ export default function CoffeeBarPromo() {
         </div>
 
         {/* Visual Callout Box */}
-        <div className="lg:w-2/5 flex flex-col justify-between border border-purple-900/30 bg-[#0d071a]/80 p-8 md:p-12 relative overflow-hidden">
+        <div className="lg:w-2/5 flex flex-col justify-between border border-purple-900/30 bg-purple-950/80/80 p-8 md:p-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 border-b border-l border-purple-900/30 bg-purple-950/20 flex items-center justify-center text-yellow-400 font-mono text-[9px] uppercase tracking-widest">
             Amenities
           </div>

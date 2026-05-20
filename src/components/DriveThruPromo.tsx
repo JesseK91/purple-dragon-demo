@@ -15,7 +15,7 @@ export default function DriveThruPromo() {
   };
 
   return (
-    <section className="py-24 px-8 bg-[#07030e] border-t border-purple-950/20 relative overflow-hidden">
+    <section className="py-24 px-8 bg-background border-t border-purple-950/20 relative overflow-hidden">
       {/* Background ambient glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-purple-950/30 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-yellow-500/5 rounded-full blur-[160px] pointer-events-none" />
@@ -73,7 +73,7 @@ export default function DriveThruPromo() {
         </div>
 
         {/* Visual Callout Box */}
-        <div className="lg:w-2/5 flex flex-col justify-between border border-purple-900/20 bg-[#07030e]/90 p-8 md:p-12 relative overflow-hidden rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.5)]">
+        <div className="lg:w-2/5 flex flex-col justify-between border border-purple-900/20 bg-background/90 p-8 md:p-12 relative overflow-hidden rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.5)]">
           <div className="absolute top-0 right-0 w-28 h-24 border-b border-l border-purple-900/20 bg-purple-950/20 flex items-center justify-center text-yellow-400 font-mono text-[9px] uppercase tracking-widest">
             FAST PASS
           </div>

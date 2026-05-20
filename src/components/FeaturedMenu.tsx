@@ -584,7 +584,7 @@ export default function FeaturedMenu({
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
                 transition={{ delay: index * 0.05 }}
-                className="group relative bg-[#0A0A0A] p-8 flex flex-col justify-between gap-8 hover:bg-white/1 transition-colors duration-500 overflow-hidden"
+                className="group relative bg-background p-8 flex flex-col justify-between gap-8 hover:bg-white/1 transition-colors duration-500 overflow-hidden"
               >
                 {/* Photo Containment with corner tag */}
                 <div className="relative aspect-square w-full filter md:grayscale md:group-hover:grayscale-0 transition-all duration-700">
@@ -594,7 +594,7 @@ export default function FeaturedMenu({
                     fill
                     className="object-cover scale-110 group-hover:scale-120 transition-transform duration-1000"
                   />
-                  <div className="absolute inset-0 bg-[#0A0A0A]/20 group-hover:bg-transparent transition-colors" />
+                  <div className="absolute inset-0 bg-background/20 group-hover:bg-transparent transition-colors" />
 
                   {!product.inStock && (
                     <div className="absolute top-4 left-4 z-20">
@@ -675,7 +675,7 @@ export default function FeaturedMenu({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: filteredProducts.length * 0.05 }}
-              className="group relative bg-[#0c0517] border border-purple-900/20 p-8 flex flex-col justify-between gap-8 hover:bg-purple-950/20 transition-colors duration-500 overflow-hidden"
+              className="group relative bg-purple-950/80 border border-purple-900/20 p-8 flex flex-col justify-between gap-8 hover:bg-purple-950/20 transition-colors duration-500 overflow-hidden"
             >
               <div className="flex flex-col gap-6">
                 <div className="flex justify-between items-start">
@@ -777,7 +777,7 @@ export default function FeaturedMenu({
               animate={{ scale: 1, y: 0, opacity: 1 }}
               exit={{ scale: 0.95, y: 20, opacity: 0 }}
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
-              className="relative w-full max-w-md bg-[#0c0517] border border-purple-900/30 p-8 flex flex-col gap-6 shadow-[0_20px_50px_rgba(0,0,0,0.9)] max-h-[90vh] overflow-y-auto"
+              className="relative w-full max-w-md bg-purple-950/80 border border-purple-900/30 p-8 flex flex-col gap-6 shadow-[0_20px_50px_rgba(0,0,0,0.9)] max-h-[90vh] overflow-y-auto"
             >
               <button
                 onClick={() => setSelectedProduct(null)}

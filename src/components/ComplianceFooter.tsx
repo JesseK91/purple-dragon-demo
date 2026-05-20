@@ -26,7 +26,7 @@ export default function ComplianceFooter() {
   ];
 
   return (
-    <footer id="store-info" className="py-20 border-t border-purple-950/20 bg-[#05010a] relative overflow-hidden">
+    <footer id="store-info" className="py-20 border-t border-purple-950/20 bg-background relative overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-8 flex flex-col gap-12">
         
         {/* Upper Column Footer Grid */}

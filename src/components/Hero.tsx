@@ -33,7 +33,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#0A0A0A]">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-background">
       {/* Background Macro Image */}
       <motion.div 
         initial={{ scale: 1.1, opacity: 0 }}
@@ -133,7 +133,7 @@ export default function Hero() {
           <div className="absolute w-[450px] h-[450px] bg-purple-600/10 rounded-full blur-[60px]" />
           <div className="absolute w-[350px] h-[350px] bg-yellow-500/5 rounded-full blur-[80px]" />
 
-          <div className="relative w-[400px] h-[400px] border border-purple-900/30 bg-[#0d071a]/40 backdrop-blur-md p-8 flex items-center justify-center group overflow-hidden shadow-[0_0_50px_rgba(147,51,234,0.15)]">
+          <div className="relative w-[400px] h-[400px] border border-purple-900/30 bg-purple-950/80/40 backdrop-blur-md p-8 flex items-center justify-center group overflow-hidden shadow-[0_0_50px_rgba(147,51,234,0.15)]">
             {/* Corners */}
             <div className="absolute top-0 left-0 w-3 h-3 border-t border-l border-yellow-500/40" />
             <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-yellow-500/40" />

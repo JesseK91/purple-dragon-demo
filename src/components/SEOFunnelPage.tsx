@@ -155,7 +155,7 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
       </section>
 
       {/* Collapsible FAQ Block */}
-      <section className="py-24 px-8 border-t border-purple-950/20 bg-[#090312]">
+      <section className="py-24 px-8 border-t border-purple-950/20 bg-background">
         <FAQBlock faqs={data.faqs} />
       </section>
 
@@ -179,8 +179,8 @@ export default function SEOFunnelPage({ data }: SEOFunnelPageProps) {
       </section>
 
       {/* Compliance Notice Block */}
-      <section className="py-12 px-8 border-t border-purple-950/20 bg-[#05010a]">
-        <div className="max-w-[1000px] mx-auto flex items-start gap-4 border border-purple-900/30 bg-[#0d071a]/40 p-6">
+      <section className="py-12 px-8 border-t border-purple-950/20 bg-background">
+        <div className="max-w-[1000px] mx-auto flex items-start gap-4 border border-purple-900/30 bg-purple-950/80/40 p-6">
           <ShieldAlert size={16} className="text-yellow-500 shrink-0 mt-0.5" />
           <div className="flex flex-col gap-1">
             <span className="mono-label text-white font-black text-[9px] uppercase tracking-wider">Medical Cannabis Notice</span>

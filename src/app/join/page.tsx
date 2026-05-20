@@ -58,7 +58,7 @@ export default function JoinTextClubPage() {
           </div>
 
           {/* Form Right Column */}
-          <div className="border border-purple-900/30 bg-[#0d071a]/40 shadow-2xl p-2">
+          <div className="border border-purple-900/30 bg-purple-950/80/40 shadow-2xl p-2">
             <TextSignupForm
               sourceTag="source_qr_join_page"
               defaultInterest="Fresh Drops"
@@ -70,7 +70,7 @@ export default function JoinTextClubPage() {
       </section>
 
       {/* Compliance Notice */}
-      <footer className="py-12 border-t border-purple-950/20 bg-[#05010a]">
+      <footer className="py-12 border-t border-purple-950/20 bg-background">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
           <p className="text-[9px] text-purple-200/70 leading-relaxed font-mono">
             {siteConfig.storeName} serves licensed Oklahoma medical marijuana patients. Email alerts do not require SMS consent. Text alerts are optional and require consent. OMMA patient license and photo ID are required for purchases.

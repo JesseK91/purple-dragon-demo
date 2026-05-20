@@ -155,7 +155,7 @@ export default function ContactPage() {
             </div>
 
             {/* Compliance Badge */}
-            <div className="border border-purple-800/30 bg-[#0d071a]/40 p-6 flex items-start gap-4 max-w-xl">
+            <div className="border border-purple-800/30 bg-purple-950/80/40 p-6 flex items-start gap-4 max-w-xl">
               <div className="w-2.5 h-2.5 rounded-full bg-yellow-400 animate-pulse mt-1" />
               <div className="flex flex-col gap-1">
                 <span className="mono-label text-white font-black text-[9px] uppercase tracking-widest">Medical Cannabis Notice</span>
@@ -167,7 +167,7 @@ export default function ContactPage() {
           </div>
 
           {/* Lead Leak / Contact Form Column */}
-          <div className="border border-purple-800/30 bg-[#0d071a]/20 p-12 relative overflow-hidden">
+          <div className="border border-purple-800/30 bg-purple-950/80/20 p-12 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-purple-600/5 blur-[100px] pointer-events-none" />
 
             <AnimatePresence mode="wait">

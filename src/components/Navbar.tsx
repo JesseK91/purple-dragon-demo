@@ -62,7 +62,7 @@ export default function Navbar({ cartCount = 0, onOpenCart, onNavigate }: Navbar
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-[100] border-b border-purple-950/20 bg-[#05010a]/80 backdrop-blur-md">
+      <nav className="fixed top-0 left-0 w-full z-[100] border-b border-purple-950/20 bg-background/80 backdrop-blur-md">
         <div className="max-w-[1800px] mx-auto px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <motion.div 
@@ -181,7 +181,7 @@ export default function Navbar({ cartCount = 0, onOpenCart, onNavigate }: Navbar
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ type: "spring", damping: 30, stiffness: 300 }}
-            className="fixed inset-0 z-[90] bg-[#05010a] flex flex-col items-center justify-center p-8 pt-32 md:hidden"
+            className="fixed inset-0 z-[90] bg-background flex flex-col items-center justify-center p-8 pt-32 md:hidden"
           >
             <div className="flex flex-col items-center gap-12 w-full">
               {navLinks.map((item, i) => (

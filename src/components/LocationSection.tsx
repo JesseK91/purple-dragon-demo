@@ -31,7 +31,7 @@ export default function LocationSection() {
   ];
 
   return (
-    <section id="location" className="py-24 px-8 bg-[#05010a] border-t border-purple-950/20 scroll-mt-20 relative overflow-hidden">
+    <section id="location" className="py-24 px-8 bg-background border-t border-purple-950/20 scroll-mt-20 relative overflow-hidden">
       <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Info Blocks (Columns 1-5) */}
@@ -106,7 +106,7 @@ export default function LocationSection() {
           {/* Mock Map Box */}
           <div
             onClick={handleMapInteraction}
-            className="w-full h-80 border border-purple-900/30 bg-[#0c0517] relative flex items-center justify-center overflow-hidden cursor-pointer group hover:border-yellow-500/30 transition-all duration-500 rounded-sm"
+            className="w-full h-80 border border-purple-900/30 bg-purple-950/80 relative flex items-center justify-center overflow-hidden cursor-pointer group hover:border-yellow-500/30 transition-all duration-500 rounded-sm"
             role="button"
             tabIndex={0}
             onKeyDown={(event) => {
@@ -126,12 +126,12 @@ export default function LocationSection() {
                 <MapPin size={20} />
                 <div className="absolute inset-0 bg-yellow-400 rounded-full animate-ping opacity-25 pointer-events-none" />
               </div>
-              <span className="mono-label text-white font-bold text-[9px] uppercase tracking-widest bg-[#0c0517] px-3 py-1 border border-purple-900/30 rounded-sm shadow-md font-mono">
+              <span className="mono-label text-white font-bold text-[9px] uppercase tracking-widest bg-purple-950/80 px-3 py-1 border border-purple-900/30 rounded-sm shadow-md font-mono">
                 {siteConfig.storeName}
               </span>
             </div>
             
-            <div className="absolute bottom-6 right-6 z-10 text-[8px] text-purple-400/55 font-mono uppercase tracking-widest bg-[#05010a]/80 backdrop-blur-md px-3 py-1.5 border border-purple-900/20 rounded-sm">
+            <div className="absolute bottom-6 right-6 z-10 text-[8px] text-purple-400/55 font-mono uppercase tracking-widest bg-background/80 backdrop-blur-md px-3 py-1.5 border border-purple-900/20 rounded-sm">
               Click to Open Google Maps
             </div>
           </div>

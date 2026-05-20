@@ -61,7 +61,7 @@ export default function StickyActionBar({ isCartOpen = false }: StickyActionBarP
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
           transition={{ type: "spring", stiffness: 260, damping: 20 }}
-          className="fixed bottom-0 left-0 w-full z-[80] md:hidden bg-[#0A0A0A]/90 backdrop-blur-lg border-t border-white/10 px-4 py-3 flex items-center justify-around shadow-[0_-10px_30px_rgba(0,0,0,0.8)]"
+          className="fixed bottom-0 left-0 w-full z-[80] md:hidden bg-background/90 backdrop-blur-lg border-t border-white/10 px-4 py-3 flex items-center justify-around shadow-[0_-10px_30px_rgba(0,0,0,0.8)]"
         >
           {navItems.map((item) => {
             const Icon = item.icon;

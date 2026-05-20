@@ -44,7 +44,7 @@ export default function RewardsSection() {
   ];
 
   return (
-    <section id="rewards" className="py-24 px-8 bg-[#07030e] border-t border-purple-950/20 relative overflow-hidden">
+    <section id="rewards" className="py-24 px-8 bg-background border-t border-purple-950/20 relative overflow-hidden">
       {/* Background Graphic Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(147,51,234,0.005)_1px,transparent_1px),linear-gradient(90deg,rgba(147,51,234,0.005)_1px,transparent_1px)] bg-[size:30px_30px] pointer-events-none" />
 
@@ -90,7 +90,7 @@ export default function RewardsSection() {
               <div
                 key={card.title}
                 onClick={() => handleInterestClick(card.title)}
-                className="bg-[#0c0517] border border-purple-900/20 p-6 flex flex-col justify-between min-h-60 hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300 cursor-pointer group"
+                className="bg-purple-950/80 border border-purple-900/20 p-6 flex flex-col justify-between min-h-60 hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300 cursor-pointer group"
               >
                 <div className="flex justify-between items-start">
                   <div className="w-10 h-10 border border-purple-900/30 flex items-center justify-center rounded-sm bg-purple-950/40 group-hover:border-yellow-500/50 transition-colors">

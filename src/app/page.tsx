@@ -138,7 +138,7 @@ export default function Home() {
       <LocationSection />
 
       {/* Popular Patient Links / SEO Internal Linking Segment */}
-      <section className="py-16 px-8 border-t border-purple-950/20 bg-[#07030e] text-center flex flex-col gap-6">
+      <section className="py-16 px-8 border-t border-purple-950/20 bg-background text-center flex flex-col gap-6">
         <span className="mono-label text-purple-400/50 text-[8px] tracking-[0.3em] uppercase block font-mono">
           Quick Store Links
         </span>
@@ -195,7 +195,7 @@ export default function Home() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 30, stiffness: 300 }}
-              className="relative w-full max-w-md bg-[#0d071a] border-l border-purple-900/30 h-full p-8 flex flex-col justify-between overflow-y-auto z-10"
+              className="relative w-full max-w-md bg-purple-950/80 border-l border-purple-900/30 h-full p-8 flex flex-col justify-between overflow-y-auto z-10"
             >
               {/* Drawer Header */}
               <div className="flex items-center justify-between border-b border-purple-900/30 pb-4">
@@ -347,7 +347,7 @@ export default function Home() {
                   </div>
 
                   {/* Simulated Receipt Slip */}
-                  <div className="border border-purple-900/30 bg-[#05010a] p-6 flex flex-col gap-4 font-mono max-w-xs mx-auto w-full text-left">
+                  <div className="border border-purple-900/30 bg-background p-6 flex flex-col gap-4 font-mono max-w-xs mx-auto w-full text-left">
                     <div className="flex flex-col border-b border-purple-900/20 pb-3 gap-1">
                       <span className="mono-label text-purple-400/50 !text-[7px]">PATIENT INFO</span>
                       <span className="text-white text-xs font-bold uppercase truncate">{patientName}</span>

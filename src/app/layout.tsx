@@ -82,7 +82,7 @@ export default function RootLayout({
         <LocalBusinessSchema />
       </head>
       <body
-        className={`${inter.variable} ${outfit.variable} ${jetbrainsMono.variable} antialiased bg-[#05010a] text-[#F8F6FC]`}
+        className={`${inter.variable} ${outfit.variable} ${jetbrainsMono.variable} antialiased bg-background text-[#F8F6FC]`}
       >
         {children}
       </body>

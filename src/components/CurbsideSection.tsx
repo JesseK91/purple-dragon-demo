@@ -48,7 +48,7 @@ export default function CurbsideSection() {
   ];
 
   return (
-    <section id="curbside" className="border-t border-purple-950/20 bg-[#05010a] py-24 scroll-mt-20 relative overflow-hidden">
+    <section id="curbside" className="border-t border-purple-950/20 bg-background py-24 scroll-mt-20 relative overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-8 flex flex-col gap-16">
         
         {/* Curbside Info Header */}
@@ -79,7 +79,7 @@ export default function CurbsideSection() {
           {steps.map((item) => {
             const Icon = item.icon;
             return (
-              <div key={item.step} className="bg-[#0c0517] p-8 min-h-52 flex flex-col justify-between group hover:bg-purple-950/20 transition-all duration-300">
+              <div key={item.step} className="bg-purple-950/80 p-8 min-h-52 flex flex-col justify-between group hover:bg-purple-950/20 transition-all duration-300">
                 <div className="flex justify-between items-start">
                   <span className="mono-label text-purple-300/40 !text-[8px] uppercase tracking-wider font-mono">
                     Step {item.step}

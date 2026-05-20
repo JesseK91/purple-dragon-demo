@@ -31,7 +31,7 @@ export default function FullMenuRouting() {
   };
 
   return (
-    <section className="py-24 px-8 bg-[#090312] border-t border-b border-purple-950/20 relative overflow-hidden">
+    <section className="py-24 px-8 bg-background border-t border-b border-purple-950/20 relative overflow-hidden">
       {/* Visual Ambient Fog */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.02)_0%,transparent_100%)] pointer-events-none" />
 

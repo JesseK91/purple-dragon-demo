@@ -5,7 +5,7 @@ import { MessageSquare, Sparkles } from "lucide-react";
 
 export default function TextClubSection() {
   return (
-    <section id="text-club" className="py-24 px-8 bg-[#07030e] border-t border-purple-950/20 scroll-mt-20 relative overflow-hidden">
+    <section id="text-club" className="py-24 px-8 bg-background border-t border-purple-950/20 scroll-mt-20 relative overflow-hidden">
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-16 items-start">
         <div className="flex flex-col gap-8 max-w-xl">
           <div className="flex flex-col gap-2">

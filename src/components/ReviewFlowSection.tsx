@@ -73,7 +73,7 @@ export default function ReviewFlowSection() {
   };
 
   return (
-    <section className="py-24 px-8 bg-[#05010a] border-t border-purple-950/20 relative overflow-hidden">
+    <section className="py-24 px-8 bg-background border-t border-purple-950/20 relative overflow-hidden">
       <div className="max-w-[1200px] mx-auto flex flex-col gap-10 items-center text-center">
         
           <div className="flex flex-col gap-2 max-w-xl">
@@ -92,7 +92,7 @@ export default function ReviewFlowSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-3xl mt-4">
           
           {/* Public Review */}
-          <div className="bg-[#0c0517] border border-purple-900/20 p-8 flex flex-col justify-between items-center gap-6 group hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300">
+          <div className="bg-purple-950/80 border border-purple-900/20 p-8 flex flex-col justify-between items-center gap-6 group hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300">
             <div className="flex flex-col items-center gap-3">
               <div className="flex gap-1">
                 {[1, 2, 3, 4, 5].map((s) => (
@@ -115,7 +115,7 @@ export default function ReviewFlowSection() {
           </div>
 
           {/* Private Feedback */}
-          <div className="bg-[#0c0517] border border-purple-900/20 p-8 flex flex-col justify-between items-center gap-6 group hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300">
+          <div className="bg-purple-950/80 border border-purple-900/20 p-8 flex flex-col justify-between items-center gap-6 group hover:border-yellow-500/30 hover:bg-purple-950/20 transition-all duration-300">
             <div className="flex flex-col items-center gap-3">
               <ShieldCheck size={24} className="text-purple-400 group-hover:text-yellow-400 transition-colors" />
               <h3 className="mono-label text-purple-200 font-bold text-xs uppercase tracking-widest mt-1 font-mono">
@@ -154,7 +154,7 @@ export default function ReviewFlowSection() {
               animate={{ scale: 1, y: 0, opacity: 1 }}
               exit={{ scale: 0.95, y: 20, opacity: 0 }}
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
-              className="relative w-full max-w-md bg-[#0d071a] border border-purple-900/30 p-8 flex flex-col gap-6 shadow-[0_20px_50px_rgba(0,0,0,0.9)] max-h-[90vh] overflow-y-auto"
+              className="relative w-full max-w-md bg-purple-950/80 border border-purple-900/30 p-8 flex flex-col gap-6 shadow-[0_20px_50px_rgba(0,0,0,0.9)] max-h-[90vh] overflow-y-auto"
             >
               <button
                 onClick={() => setIsModalOpen(false)}
@@ -232,7 +232,7 @@ export default function ReviewFlowSection() {
                           className={`w-10 h-10 border flex items-center justify-center font-mono text-xs rounded-sm transition-all cursor-pointer ${
                             rating >= star
                               ? "bg-yellow-500 text-black border-yellow-400 font-bold"
-                              : "bg-[#0c0517] text-purple-400 border-purple-900/30 hover:border-yellow-400/50"
+                              : "bg-purple-950/80 text-purple-400 border-purple-900/30 hover:border-yellow-400/50"
                           }`}
                         >
                           {star} <Star size={10} className="ml-0.5 fill-current shrink-0" />

@@ -15,7 +15,7 @@ export default function ReviewPage() {
       </section>
 
       {/* Compliance Footer */}
-      <footer className="py-12 border-t border-purple-950/20 bg-[#05010a]">
+      <footer className="py-12 border-t border-purple-950/20 bg-background">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
           <p className="text-[9px] text-purple-200/70 leading-relaxed font-mono">
             {siteConfig.storeName}, {siteConfig.address}. Patient reviews help local medical cardholders decide where to shop. Thank you for the feedback.

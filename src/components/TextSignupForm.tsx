@@ -122,7 +122,7 @@ export default function TextSignupForm({
   };
 
   return (
-    <div className="border border-purple-900/30 bg-[#0d071a]/20 p-8 md:p-12 relative overflow-hidden">
+    <div className="border border-purple-900/30 bg-purple-950/80/20 p-8 md:p-12 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-48 h-48 bg-purple-600/5 blur-[80px] pointer-events-none" />
       
       <AnimatePresence mode="wait">
@@ -263,7 +263,7 @@ export default function TextSignupForm({
               <p className="text-purple-100/95 text-xs font-mono leading-relaxed max-w-sm mx-auto uppercase">
                 Thanks, <span className="text-white font-bold">{name}</span>. We saved your interest in <span className="text-white font-bold">{interest}</span> alerts.
               </p>
-              <div className="border border-purple-900/30 bg-[#0d071a]/40 p-4 flex items-center gap-3 max-w-xs mx-auto mt-2">
+              <div className="border border-purple-900/30 bg-purple-950/80/40 p-4 flex items-center gap-3 max-w-xs mx-auto mt-2">
                 <ShieldCheck size={14} className="text-yellow-400 shrink-0" />
                 <span className="text-[9px] text-purple-200/80 font-mono leading-relaxed text-left uppercase">
                   Alert Preferences Secured. You will receive updates about {interest} drops at the contact details provided.
